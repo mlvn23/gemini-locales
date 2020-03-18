@@ -6,6 +6,8 @@ import locales._
 
 name in ThisBuild := "gemini-locales"
 
+scalaJSUseMainModuleInitializer := true
+
 Global / onChangedBuildSource := IgnoreSourceChanges
 
 Global / resolvers += Resolver.sonatypeRepo("public")
